@@ -22,5 +22,6 @@ end
 
 -- Wypisanie zmodyfikowanej tablicy
 for i, v in ipairs(liczby) do
-    print("Liczba po podwojeniu: " .. v)
+    gcs:send_text('5', "Liczba po podwojeniu: " .. v)
 end
+
